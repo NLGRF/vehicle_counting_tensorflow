@@ -62,10 +62,6 @@ Source video is read frame by frame with OpenCV. Each frames is processed by ["S
 
 By default I use an ["SSD with Mobilenet" model](http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_coco_2017_11_17) in this project. You can find more information about SSD in [here](https://towardsdatascience.com/understanding-ssd-multibox-real-time-object-detection-in-deep-learning-495ef744fab). See the [detection model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md) for a list of other models that can be run out-of-the-box with varying speeds and accuracies.
 
-## Project Demo
-
-Demo video of the project is available on [My YouTube Channel](https://www.youtube.com/watch?v=PrqnhHf6fhM).
-
 ## Installation
 
 **1.) Python and pip**
@@ -100,19 +96,6 @@ If you are still getting problem about installation after completed the installa
 
       python3 vehicle_detection_main.py
 ---
-
-## Citation
-If you use this code for your publications, please cite it as:
-
-    @ONLINE{vdtct,
-        author = "Ahmet Özlü",
-        title  = "Vehicle Detection, Tracking and Counting by TensorFlow",
-        year   = "2018",
-        url    = "https://github.com/ahmetozlu/vehicle_counting_tensorflow"
-    }
-
-## Author
-Ahmet Özlü
 
 ## License
 This system is available under the MIT license. See the LICENSE file for more info.
